@@ -1,0 +1,97 @@
+.task-status {
+    color: gray;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+/* Your existing CSS styles */
+
+.task-checkbox {
+    margin-right: 5px;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* App sections */
+.add-task, .add-category {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.categories {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Buttons */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Task and category styling */
+.category {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    flex: 1;
+}
+
+.category h2 {
+    margin-top: 0;
+}
+
+.category-tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.task-checkbox {
+    margin-right: 5px;
+}
+
+.task-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.task-status {
+    color: gray;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+/* Background Gradient */
+body {
+    background: linear-gradient(to bottom, #0074D9, #2ECC40);
+}
